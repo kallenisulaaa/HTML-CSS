@@ -130,6 +130,7 @@ h2 {
 
 p {
     color: #040119;
+    margin-left: 5%;
 }
 
 .esitys {
@@ -163,6 +164,10 @@ figure {
     align-items: center;
 }
 
+figcaption {
+    opacity: 0.5;
+}
+
 figure p {
     text-align: center;
 }
@@ -182,6 +187,5 @@ figure h3 {
 }
 
 .yhteys {
-    margin-left: 5%;
     line-height: 0.2;
 }
