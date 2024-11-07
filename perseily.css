@@ -30,7 +30,7 @@
     }
 
         body {
-            font-family: CustomFont;
+            font-family: Generic-Default, serif;
             animation: flashing 0.1s 80;
             background-color: fuchsia;
     }

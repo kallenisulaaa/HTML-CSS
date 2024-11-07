@@ -1,0 +1,55 @@
+
+.AAA {
+    width: 60%;
+    margin: auto;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dm-sans{
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+header {
+    background-color: darkslateblue;
+    font-size: smaller;
+}
+
+main {
+    background-color: mediumslateblue;
+}
+
+footer {
+    background-color: snow;
+    width: 20%;
+    align-content: end;
+    font-size: x-small;
+}
+
+body {
+    font-family: "DM Sans", serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    color: black;
+}
+
+img {
+    width: 320px;
+    height: 240px;
+}
