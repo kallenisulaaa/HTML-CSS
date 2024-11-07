@@ -1,6 +1,6 @@
 
 .AAA {
-    width: 60%;
+    width: 100%;
     margin: auto;
     background-image: url("img/Shiny Overlay.svg");
     background-repeat: no-repeat;
@@ -9,6 +9,25 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: auto;
+}
+
+@media screen and (min-width: 769px) {
+    .AAA {
+        width: 60%;
+        margin: auto;
+        background-image: url("img/Shiny Overlay.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+main {
+
 }
 
 .etusivu {
@@ -38,6 +57,7 @@ li a {
     height: 3rem;
     display: block;
     line-height: 3rem;
+    color: #030913;
 }
 
 li a:hover {
@@ -56,9 +76,6 @@ ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-}
 
 .dm-sans{
   font-family: "DM Sans", serif;
@@ -91,6 +108,8 @@ footer {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: "DM Sans", serif;
     background-color: #8a8aea;
 }
@@ -100,8 +119,7 @@ img {
 }
 
 h1 {
-    justify-content: left;
-    width: 40%;
+    margin-left: 5%;
 }
 
 h2 {
@@ -111,5 +129,59 @@ h2 {
 }
 
 p {
-    color: black;
+    color: #040119;
+}
+
+.esitys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    padding: 5%;
+
+}
+
+.esitys img {
+    align-content: center;
+}
+
+.tuotteet {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+figure {
+    width: 20%;
+    padding: 3%;
+    background-color: #8f83e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure p {
+    text-align: center;
+}
+figure img {
+    justify-content: center;
+}
+
+figure h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+
+.figure2 {
+    margin-right: 5%;
+}
+
+.yhteys {
+    margin-left: 5%;
+    line-height: 0.2;
 }
