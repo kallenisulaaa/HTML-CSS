@@ -2,15 +2,62 @@
 .AAA {
     width: 60%;
     margin: auto;
+    background-image: url("img/Shiny Overlay.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.etusivu {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.etusivuteksti {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+li {
+    display: inline-block;
+    margin: 0 1rem
 }
 
 li a {
     text-decoration: none;
+    background-color: #7c67ea;
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    line-height: 3rem;
+}
+
+li a:hover {
+    background-color: rgba(16, 68, 211, 0.68);
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 .dm-sans{
@@ -21,35 +68,48 @@ a {
 }
 
 header {
-    background-color: darkslateblue;
-    font-size: smaller;
+    background-color: #7c67ea;
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+    height: 6rem;
+    line-height: 1rem;
 }
 
-main {
-    background-color: mediumslateblue;
+header img {
+    height: 100%;
+    width: 15%;
+    margin-right: auto;
+    background-color: #8a8aea;
 }
+
 
 footer {
-    background-color: snow;
-    width: 20%;
-    align-content: end;
+    width: 100%;
+    align-content: center;
     font-size: x-small;
 }
 
 body {
     font-family: "DM Sans", serif;
+    background-color: #8a8aea;
+}
+
+img {
+    max-width: 100%;
 }
 
 h1 {
-    text-align: center;
-    font-size: x-large;
+    justify-content: left;
+    width: 40%;
+}
+
+h2 {
+    padding-top: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 p {
     color: black;
-}
-
-img {
-    width: 320px;
-    height: 240px;
 }
